@@ -5,7 +5,7 @@
 using namespace std;
 
 int maxProfit(vector<int>& myvec){
-    //classical example of keep track of a max value and a min value. 
+    //classical example of keeping track of a max value and a min value. 
     //need to maintain two pointers one for minprice and one for max profit.
     //at any point in time, maxprofit is going to be max of already existing max profit, and current profit. 
     //Also, we may have a big profit in the next time step, so we need to keep iterating until the end. 
